@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 export default function Button({ label }: ButtonProps) {
-  const [test, setTest] = useState<string>('gogog');
+  const [test, setTest] = useState<string>('gogog1');
   return (<>
     <button>{label}</button>
     {test}
