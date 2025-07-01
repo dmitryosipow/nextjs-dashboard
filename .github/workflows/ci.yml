@@ -3,7 +3,7 @@ name: CI - Run Tests
 on:
   pull_request:
     branches:
-      - main # Replace 'main' with your default branch name if it's different
+      - master # Replace 'main' with your default branch name if it's different
 
 jobs:
   test:
