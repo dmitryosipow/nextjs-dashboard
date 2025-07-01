@@ -5,5 +5,5 @@ import Button from './Button';
 
 test('renders the button with the correct label', () => {
   render(<Button label="Click Me" />);
-  expect(screen.getByText('Click Me1')).toBeInTheDocument();
+  expect(screen.getByText('Click Me')).toBeInTheDocument();
 });
